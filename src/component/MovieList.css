@@ -1,0 +1,16 @@
+
+.card{
+    margin: 36px;
+    padding: 23px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    margin-left: 320px;
+    width: 50%;
+}
+.title{
+    font-weight: bold;
+}
+.dates{
+    font-family: italic;
+}
