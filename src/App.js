@@ -1,6 +1,5 @@
 import "./App.css";
 import MovieList from "./component/MovieList";
-import "./component/MovieList.css";
 import { useEffect, useState, useCallback } from "react";
 
 function App() {
@@ -8,8 +7,7 @@ function App() {
   const [isLoading, setIsloading] = useState(false);
   const [error, setError] = useState(null);
 
-  const fetchData = async () => {
-    setIsloading(true);
+  const fetchData = useCallback(async () => {
     setError(null);
     try {
       const response = await fetch("https://swapi.dev/api/films");
@@ -22,8 +20,7 @@ function App() {
     } catch (error) {
       setError(error.message);
     }
-    setIsloading(false);
-  };
+  }, []);
 
   useEffect(() => {
     fetchData();
@@ -37,16 +34,10 @@ function App() {
   if (error) {
     content = <p>{error}</p>;
   }
-  if (isLoading) {
-    content = <p>Loading...</p>;
-  }
 
   return (
     <div className="App">
       <header className="App-header">
-        <section>
-          <p className="fetchmovie">Movies List</p>
-        </section>
         <section>{content}</section>
       </header>
     </div>
