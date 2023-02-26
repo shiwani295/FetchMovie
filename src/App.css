@@ -27,25 +27,6 @@
 .App-link {
   color: #61dafb;
 }
-
-.fetchmovieButton{
-  padding: 20px;
-  margin-top: 38px;
-  margin-bottom: 20px;
-  width: 698px;
-  border-radius: 20px;
-  background-color: darkblue;
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-  border: 1px solid;
-  cursor: pointer;
-}
-.fetchmovieButton:hover{
-
-  box-shadow:  0 4px 10px rgba(0, 0, 0, 26)
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

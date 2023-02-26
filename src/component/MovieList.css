@@ -2,11 +2,12 @@
 .card{
     margin: 36px;
     padding: 23px;
-    background-color: white;
+    background-color: #EDF1D6;
     color: black;
-    border-radius: 15px;
+    border-radius: 7px;
     margin-left: 320px;
     width: 50%;
+    box-shadow: rgba(233, 229, 229, 0.35) 0px 5px 15px;
 }
 .title{
     font-weight: bold;
@@ -14,3 +15,19 @@
 .dates{
     font-family: italic;
 }
+.fetchmovie{
+    padding: 20px;
+    margin-top: 38px;
+    margin-left: 11px;
+    width: 679px;
+    background-color: #9DC08B;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border: 1px  whitesmoke solid;
+   
+  }
+  .fetchmovie:hover{
+    box-shadow: rgba(233, 229, 229, 0.35) 0px 5px 15px;
+   
+  }

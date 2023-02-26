@@ -1,5 +1,6 @@
 import React from "react";
 import "./MovieList.css";
+
 const MovieList = (props) =>
   props.movies.map((data) => {
     return (
