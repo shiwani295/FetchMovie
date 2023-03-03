@@ -8,6 +8,7 @@ function App() {
   const [error, setError] = useState(null);
 
   const fetchData = useCallback(async () => {
+    setIsloading(true);
     setError(null);
     try {
       const response = await fetch("https://swapi.dev/api/films");
@@ -15,11 +16,12 @@ function App() {
         throw new Error("Something went wrong ....Retrying");
       }
       const data = await response.json();
-
+      //setIsloading(true);
       setMovies(data.results);
     } catch (error) {
       setError(error.message);
     }
+    setIsloading(false);
   }, []);
 
   useEffect(() => {
@@ -34,10 +36,16 @@ function App() {
   if (error) {
     content = <p>{error}</p>;
   }
-
+  if (isLoading) {
+    content = <p>Loading...</p>;
+  }
   return (
     <div className="App">
       <header className="App-header">
+        {/* <section>
+          <AddMovies />
+        </section> */}
+
         <section>{content}</section>
       </header>
     </div>

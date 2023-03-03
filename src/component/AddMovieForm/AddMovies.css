@@ -1,0 +1,59 @@
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    display: block;
+    margin-left: 331px;
+    margin-top: 9px;
+  }
+  input[type=text]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 9px 332px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }  
+  input[type=date]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 9px 332px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }  
+  .formtitle{
+    margin-left: -641px;
+    font-size: 17px;
+    font-weight: bold;
+    
+  }
+  .opnText{
+    margin-left: -562px;
+    font-weight: bold;
+    font-size: 17px;
+  }
+ .Reldate{
+    margin-left: -562px;
+    font-weight: bold;
+    font-size: 17px;
+ }
+ .AddMovieBtn{
+    padding: 20px;
+    margin-top: 38px;
+    margin-left: 11px;
+    width: 679px;
+    background-color: #9DC08B;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border: 1px  whitesmoke solid;
+ }
