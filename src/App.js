@@ -1,6 +1,7 @@
 import "./App.css";
 import MovieList from "./component/MovieList";
 import { useEffect, useState, useCallback } from "react";
+//import AddMovies from "./component/AddMovieForm/AddMovies";
 
 function App() {
   const [movies, setMovies] = useState([]);

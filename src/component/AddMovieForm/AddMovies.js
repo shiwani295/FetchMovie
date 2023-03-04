@@ -13,8 +13,17 @@ const AddMovies = (props) => {
       opn: refopnText.current.value,
       date: refDate.current.value,
     };
-
+    //props.addMovie(Allrefdata);
     console.log(Allrefdata);
+
+    //setMovieList(Allrefdata);
+
+    //const movieList = JSON.stringify(Allref);
+    // setMovieList(movieList);
+    //console.log(movieList);
+    // reftitle.current.value = "";
+    // refopnText.current.value = "";
+    // refDate.current.value = "";
   };
 
   return (
