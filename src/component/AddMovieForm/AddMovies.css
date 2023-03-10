@@ -1,21 +1,32 @@
 textarea {
-    width: 50%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    font-size: 16px;
-    resize: none;
-    display: block;
-    margin-left: 331px;
-    margin-top: 9px;
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  display: block;
+  margin-left: 218px;
+  margin-top: 9px;
+  margin-bottom: 6px;
   }
+  .MovieForm{
+    margin-top: 58px;
+  background-color: white;
+  color: black;
+  padding-top: 34px;
+  padding-bottom: 27px;
+  border-radius: 5px;
+
+  }
+  
   input[type=text]{
     width: 50%;
     padding: 12px 20px;
-    margin: 9px 332px;
+    margin: 9px 218px;
     display: block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -24,27 +35,27 @@ textarea {
   input[type=date]{
     width: 50%;
     padding: 12px 20px;
-    margin: 9px 332px;
+    margin: 6px 218px;
     display: block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
   }  
   .formtitle{
-    margin-left: -641px;
+    margin-left: -215px;
     font-size: 17px;
     font-weight: bold;
     
   }
   .opnText{
-    margin-left: -562px;
+    margin-left: -148px;
     font-weight: bold;
     font-size: 17px;
   }
  .Reldate{
-    margin-left: -562px;
-    font-weight: bold;
-    font-size: 17px;
+  margin-left: -147px;
+  font-weight: bold;
+  font-size: 17px;
  }
  .AddMovieBtn{
     padding: 20px;
@@ -57,4 +68,14 @@ textarea {
     color: black;
     border: 1px  whitesmoke solid;
  }
+.FormMovieBtn{
+  padding: 16px;
+  margin-top: 38px;
+  background-color: #9DC08B;
+  font-size: 15px;
+  font-weight: bold;
+  color: #f3e3e3;
+  border: 1px  whitesmoke solid;
+  border-radius: 42px;
+}
  /*  */
